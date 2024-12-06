@@ -1,9 +1,9 @@
 ## CS140E: embedded operating systems (Engler, Winter, 2025)
 
-12/5/24: Enrollment for the class is open!  
-[Please fill out the application](https://forms.gle/1UuHUJsWSRGLSH8BA).  
-We will have rolling acceptances throughout December.  Class is usually
-limited to around 50 students.
+12/5/24: Enrollment for the class is open! [Please fill out the
+application](https://forms.gle/1UuHUJsWSRGLSH8BA).  We will have rolling
+acceptances throughout December.  Class is usually limited to around
+50 students.
 
 CS140E is an introductory operating systems course. It roughly covers
 the same high-level material as [CS 212][cs212] (formerly CS 140), but
