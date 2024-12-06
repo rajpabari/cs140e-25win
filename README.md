@@ -13,11 +13,15 @@ filesystems, networking, and scheduling, but take different approaches
 to doing so. By the end of 140E, you will have (hopefully) built your
 own simple, clean operating system for the widely-used, ARM-based
 [Raspberry Pi][raspberrypi].
-  - If you're debating taking the class, here 
-    is [last year's class for reference][2024]
- - [Should I take CS 140E?](guides/why-140e.md)
 
-We have an unusually strong and varied staff this year:
+If you're debating taking the class:
+ - Here is [last year's class for reference][2024]
+ - And a short guide on [Should I take CS 140E?](guides/why-140e.md)
+
+We have an unusually strong and varied staff this year.  Joe Tan has
+been our TA since ancient times, and everyone else was star 140E/240LX
+students from last year:
+
   - Joseph Tan (dghosef, head TA for all admin stuff)
   - Ammar Ali Ratnani (aratnani)
   - Joseph Shetaye (shetaye)
