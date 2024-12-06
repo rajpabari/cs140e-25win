@@ -18,9 +18,8 @@ If you're debating taking the class:
  - Here is [last year's class for reference][2024]
  - And a short guide on [Should I take CS 140E?](guides/why-140e.md)
 
-We have an unusually strong and varied staff this year --- Joseph Tan
-has been foundational for living memory, and and everyone else was a
-star 140E/240LX student from last year:
+We have an unusually strong and varied staff this year.  Should be a
+fun quarter :)
 
   - Joseph Tan (dghosef, head TA for all admin stuff)
   - Ammar Ali Ratnani (aratnani)
@@ -40,7 +39,6 @@ star 140E/240LX student from last year:
 [2018]: https://cs140e.sergio.bz
 
 
-Should be a fun quarter :)
 
 <p align="center">
   <img src="labs/lab-memes/beast-mode.jpg" width="600" />
