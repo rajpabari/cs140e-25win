@@ -39,3 +39,11 @@ students from last year:
 [2019]: https://github.com/dddrrreee/cs140e-win19
 [2018]: https://cs140e.sergio.bz
 
+
+Should be a fun quarter :)
+
+<p align="center">
+  <img src="labs/lab-memes/beast-mode.jpg" width="600" />
+</p>
+
+
