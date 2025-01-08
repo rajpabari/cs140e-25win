@@ -73,7 +73,7 @@ The people that found the class valuable in the past were entirely drawn
 from this demographic.  I would say that if you struggle building stuff
 and are not already interested in the topic, then it's probably better
 to take a different class.  I would particularly advise against taking
-this class if you were looking for an easier way to satisfy a cs140
+this class if you were looking for an easier way to satisfy a cs212 
 requirement.
 
    1. It always helps, but you do not need any background in hardware
@@ -105,13 +105,13 @@ requirement.
 
 A quick skim might falsely pattern-match on a couple of things:
 
-   1. cs140e is *NOT* an easier version of cs140.  In fact, it can
+   1. cs140e is *NOT* an easier version of cs212.  In fact, it can
       be quite a bit harder, since we work with raw hardware, and
       primarily use raw datasheets and ARMv6 architecture manuals
       rather than pre-digested text books or simulators.
 
       I'd say about 1/3 of the teaching evals from last year explicitly
-      stated "do not take cs140e as an easier cs140".
+      stated "do not take cs140e as an easier cs212".
 
       On the plus side, this approach is the adult way to do things,
       so you will be better prepared after the class for operating
