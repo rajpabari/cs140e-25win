@@ -58,7 +58,6 @@ found personally useful.   There will be zero (intentional) busy-work.
   <img src="labs/lab-memes/feynman-simple.jpg" width="400" />
 </p>
 
-
 ------------------------------------------------------------------------
 #### Who should take this class.
 
