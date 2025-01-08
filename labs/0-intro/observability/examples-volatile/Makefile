@@ -10,6 +10,7 @@ all : $(PROGS)
 %.o: %.c
 	arm-none-eabi-gcc $(CFLAGS) -c $^ -o $@
 	arm-none-eabi-objdump $(ODFLAG) $@ >  $@.dis
+	cat $@.dis
 
 clean:
 	rm -f  *.dis *.o *~ *.s

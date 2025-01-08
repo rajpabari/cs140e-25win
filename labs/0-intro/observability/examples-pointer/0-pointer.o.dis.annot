@@ -12,3 +12,13 @@ void foo(void) {
     return;
 }
    0:	e12fff1e 	bx	lr
+
+00000004 <bar>:
+    int y = 4;
+    int z = 5;
+    int w = 6;
+
+    return x*y+z*w;
+}
+   4:	e3a0002a 	mov	r0, #42	; 0x2a
+   8:	e12fff1e 	bx	lr

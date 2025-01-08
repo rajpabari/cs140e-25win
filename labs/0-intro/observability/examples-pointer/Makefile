@@ -16,6 +16,7 @@ all : $(PROGS)
 	arm-none-eabi-gcc $(CFLAGS) -c $^ -o $@
 	arm-none-eabi-objdump $(ODFLAG) $@ >  $@.dis
 	arm-none-eabi-objdump $(ODFLAG) -S $@ >  $@.dis.annot
+	cat $@.dis
 
 clean:
 	rm -f  *.dis *.o *~ *.s

@@ -7,7 +7,6 @@ void foo(void) {
     return;
 }
 
-#if 0
 // what will the compiler do?
 int bar(void) {
     int x = 3;
@@ -18,6 +17,7 @@ int bar(void) {
     return x*y+z*w;
 }
 
+#if 0
 unsigned mul16(unsigned x) {
     return x * 16;
 }
