@@ -138,7 +138,7 @@ To write the SD card:
     `/run/media/yourusername/`).
 
 3.  Copy all the files from the `firmware` directory at the top level of 
-    the class repo to the SD card. (I.e., at `cs140e-24win/firmware`.)
+    the class repo to the SD card. (I.e., at `cs140e-25win/firmware`.)
 
     You should do the copy from the command line using `cp`, which is
     much much faster and better than using a gui (e.g., you can put it
@@ -227,7 +227,7 @@ Connect everything:
      together.  If you need to disconnect, pull out evenly by wiggling.
 
 After everything is connected, use the provided staff bootloader
-(in `cs140e-24win/bin`) to run the precompiled hello world program
+(in `cs140e-25win/bin`) to run the precompiled hello world program
 `hello.bin` (there is also a copy of `hello.bin` in the `firmware` directory
 for easy locating).
 
@@ -448,8 +448,12 @@ If gcc can't find header files, try:
 ## 5. Set your `CS140E_2025_PATH`
 
 Checkoff:
-   - Running `make` in the `4-checkoff` directory should compile and run
-     a hello world program without complaint.
+   - Typing 
+
+        cd $CS140E_2025_PATH/labs/0-pi-setup
+ 
+     Should take you back to the lab directory.
+
 
 This is the last, one-time-only configuration you'll have to do. We need
 it so `Makefiles` know how to find your class installation.
@@ -459,7 +463,6 @@ on the first lab, today you're going to edit your shell configuration file
 (e.g., `.tcshrc`, `.bash_profile`, etc) to set an environment variable
 `CS140E_2025_PATH` to contain where you have your class repository.
 
-
 NOTE: 
   - Do not put the class repo in a directory has a space!
     This will break various things with unclear errors.  This happened
@@ -468,7 +471,7 @@ NOTE:
 
 E.g., for me, since I'm running `tcsh` I edit my `.tcshrc` file and add:
 
-    setenv CS140E_2025_PATH /home/engler/class/cs140e-24win/
+    setenv CS140E_2025_PATH /home/engler/class/cs140e-25win/
 
 To the end of it.  If you use `bash` you'll do an:
 
