@@ -324,9 +324,9 @@ the future (even outside this class).
 This step and the next should only ever need to be done once.  
 
 Checkoff:
-  - Run `make` in `3-bin-hello` and see that it compiles and run hello.
-  - Alternatively: you should be able to type `pi-install` in any
+  - You should be able to type `pi-install` in any
     directory and have it be found and run.
+  - So, for example `pi-install hello.bin` should work.
 
 To save you time, typing and mistakes you'll now tell your shell to
 look for executable programs in a `bin` directory located in your home
@@ -384,16 +384,17 @@ get stuck, here's a bit more information:
 ------------------------------------------------------------------------
 ## 4. Setup your compiler toolchain
 
-After doing this step, running `make` in `0-hello` should print 
-something like:
+Checkoff:
+  - After doing this step, running `make` in `0-hello` should print 
+    something like:
 
-    ...
-    waiting for a start
-    putting code
-    bootloader: Done.
-    ...
-    hello world from the pi
-    DONE!!!
+        ...
+        waiting for a start
+        putting code
+        bootloader: Done.
+        ...
+        hello world from the pi
+        DONE!!!
 
 ### macOS
 
