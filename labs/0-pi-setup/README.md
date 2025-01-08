@@ -448,9 +448,9 @@ If gcc can't find header files, try:
 ## 5. Set your `CS140E_2025_PATH`
 
 Checkoff:
-   - Typing 
+   - Typing:
 
-        cd $CS140E_2025_PATH/labs/0-pi-setup
+            cd $CS140E_2025_PATH/labs/0-pi-setup
  
      Should take you back to the lab directory.
 
