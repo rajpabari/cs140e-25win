@@ -24,8 +24,6 @@ fun quarter :)
   - Matthew Sotoudeh (sotoudeh)
   - Dawson Engler (engler)
 
-
-
 ------------------------------------------------------------------------
 ### Details
 
@@ -55,6 +53,13 @@ works on real hardware.   This understanding will serve you in many other
 contexts.  For what it is worth, everything you build will be stuff we
 found personally useful.   There will be zero (intentional) busy-work.
 
+
+<p align="center">
+  <img src="labs/lab-memes/feynman-simple.jpg" width="400" />
+</p>
+
+
+------------------------------------------------------------------------
 #### Who should take this class.
 
 The goal of the class is to help students who are very motivated and/or
@@ -141,9 +146,17 @@ gap between their understanding and the topic but started to really
 ------------------------------------------------------------------------
 ### Lab policies.
 
+Since we are short-staffed - you are strongly encouraged to help other
+people!  We will try to keep a note of who does so effectively, and will
+guarantee that you will be pushed up a grade if you are on the border.
+
    - You should be able to complete almost all of the lab in one sitting.
      If not, you *must* complete the lab within a week.  We will not
      accept a lab after this.
+
+     We had a more flexible policy in the past.  Unfortunately, since
+     labs typically build on each other, once people fell behind they
+     got seriously lost.
 
    - To repeat: You *must* complete the lab within a week of it being
      issued.
@@ -154,40 +167,13 @@ gap between their understanding and the topic but started to really
      to make the labs more information-dense by handling basic stuff
      outside of it, and focusing mostly on any tricky details in it.
 
-   - Labs are not optional!   If you are going to miss a lab you need
-     to make arrangements with us before hand, and missing more than
-     one or two is going to affect your grade even if you turn in the
-     work on time.
+   - There will be three homeworks total, which will consist of integrating
+     previous labs and submitting working code.
 
-We had a more flexible policy in the past.  Unfortunately, since
-labs typically build on each other, once people fell behind they got
-seriously lost.  Further, this year we short-staffed for the amount of
-students taking the course, so don't have the resources to walk a few
-students each week through makeup labs.
-
-------------------------------------------------------------------------
-### Grading policy
-
-Since we are short-staffed --- as are all Stanford lab classes for reasons
-I do not understand --- you are strongly encouraged to help other people!
-We will try to keep a note of who does so effectively, and will guarantee
-that you will be pushed up a grade if you are on the border.
-
-Notes:
- 1. Prelabs must be completed before class, and labs must be completed
-    within a week to receive credit.
-
- 2. There will be three homeworks total, which will consist of integrating
-    previous labs and submitting working code.
-
- 4. Participation: Based on class attendance and discussion,
-    and newsgroup replies. Students are allowed to miss 1-2 classes,
-    but must notify the instructor beforehand.
-
- 5. You can leave lab at any time, but please either be there at the 
-    start for when we discuss any important features of the night's
-    lab or don't ask questions (we don't have the staff for O(n) 
-    repeats).
+   - You can leave lab at any time, but please either be there at the 
+     start for when we discuss any important features of the night's
+     lab or don't ask questions (we don't have the staff for O(n) 
+     repeats).
 
 ------------------------------------------------------------------------
 ### What to do now.
