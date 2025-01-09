@@ -4,7 +4,6 @@
   <img src="docs/recursive.jpg" width="450" />
 </p>
 
-
 Today is a fun lab; on the teaching evals it was generally
 the favorite of the quarter.  
 
@@ -59,6 +58,13 @@ For this lab you will write code to implement Thompson's hack in three
 steps: start with `code/step1` (easy), then `code/step2` (medium), 
 then `code/step3` (hardest).
 
+#### Checkoff
+
+We're piloting a new submission/check off process. Please
+- run `git clone https://github.com/dghosef/140e-dumb-autograder`
+- Follow the instructions here: https://github.com/dghosef/140e-dumb-autograder
+- Check the output in `checkoffs/<sunet>/lab1`. Make sure it looks good
+
 Standard check-off:
   - When you type `make check` in `code/step3` the test passes.
 
@@ -81,6 +87,7 @@ Hard check-off (if you're exceptionally ambitious):
     the lab).
 
 Extensions:
+  - Do a version that uses `putchar` versus `printf`.
   - Redo everything in a different language (e.g., rust).
   - Inject attacks into a binary program rather than source code.
   - Attack a different program (this could be a minor or major extension
@@ -551,14 +558,6 @@ Note:
     make the mistake of using an external file.  (It could also just
     be failing because there is non-determinism in compilation on MacOS
     M1's laptops.)
-
---------------------------------------------------------------------------
-### Submitting
-
-We're piloting a new submission/check off process. Please
-- run `git clone https://github.com/dghosef/140e-dumb-autograder`
-- Follow the instructions here: https://github.com/dghosef/140e-dumb-autograder
-- Check the output in `checkoffs/<sunet>/lab1`. Make sure it looks good
 
 -----------------------------------------------------------------------
 #### Postscript
