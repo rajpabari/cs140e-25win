@@ -555,12 +555,10 @@ Note:
 --------------------------------------------------------------------------
 ### Submitting
 
-We're piloting a new submission/check off process. `cd` into the code
-directory and run `make submit`. Then, upload the file `upload.zip` to the
-Gradescope Lab 2 assignment. Finally, once the results come back, come down
-and see a TA so that we can do a manual review for any errors and check you
-off.
-
+We're piloting a new submission/check off process. Please
+- run `git clone https://github.com/dghosef/140e-dumb-autograder`
+- Follow the instructions here: https://github.com/dghosef/140e-dumb-autograder
+- Check the output in `checkoffs/<sunet>/lab1`. Make sure it looks good
 
 -----------------------------------------------------------------------
 #### Postscript
