@@ -6,11 +6,14 @@
 //
 // what happens?
 int mul(int *time, int a, int b) {
-    unsigned start = *(unsigned *) 0x20003004;
+    unsigned start = *(volatile unsigned *) 0x20003004;
+
+asm volatile ("" : : : "memory");
 
 	int c = a * b;
 
-    unsigned end = *(unsigned *) 0x20003004;
+asm volatile ("" : : : "memory");
+    unsigned end = *(volatile unsigned *) 0x20003004;
 
 	*time = end - start;
 	return c;

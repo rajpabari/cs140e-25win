@@ -17,13 +17,13 @@ typedef struct {
 #define MAILBOX_EMPTY  (1<<30)
 #define MAILBOX_FULL   (1<<31)
 
-static mailbox_t *mbox =  (void*)0x2000B880;
+static mailbox_t *volatile mbox =  (void*)0x2000B880;
 
 void write_mailbox(volatile void *data, unsigned channel) {
     // what happens here?
 
     while(mbox->status & MAILBOX_FULL)
-        asm volatile ("" : : : "memory");
+        ;
     mbox->write = ((unsigned)(data) | channel | 0x40000000);
 }
 void inf(void) { 
