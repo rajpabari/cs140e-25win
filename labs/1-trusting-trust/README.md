@@ -4,6 +4,21 @@
   <img src="docs/recursive.jpg" width="450" />
 </p>
 
+------------------------------------------------------------------------
+### Clarifications for today
+
+Note:
+  - For quine-gen.c --- you can just statically allocate a large buffer.
+    We're just trying to build a quick and dirty solution to understand
+    the paper, not write robust code.
+
+  - For self replication at any step: you should *NOT* be dynamically
+    reading in a file using `fopen` etc and printing it out.  The
+    replication should be contained entirely within the program ---
+    though you can `#include` code statically if you want.
+
+------------------------------------------------------------------------
+
 Today is a fun lab; on the teaching evals it was generally
 the favorite of the quarter.  
 
@@ -63,7 +78,7 @@ then `code/step3` (hardest).
 We're piloting a new submission/check off process. Please
 - run `git clone https://github.com/dghosef/140e-dumb-autograder`
 - Follow the instructions here: https://github.com/dghosef/140e-dumb-autograder
-- Check the output in `checkoffs/<sunet>/lab1`. Make sure it looks good
+- Check the output in `checkoffs/<sunet>/lab1`. At the bottom, it should say that Ken successfully logged in. Don't worry if there are other errors above.
 
 Standard check-off:
   - When you type `make check` in `code/step3` the test passes.
