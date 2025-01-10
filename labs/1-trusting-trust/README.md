@@ -4,6 +4,21 @@
   <img src="docs/recursive.jpg" width="450" />
 </p>
 
+------------------------------------------------------------------------
+### Clarifications for today
+
+Note:
+  - For quine-gen.c --- you can just statically allocate a large buffer.
+    We're just trying to build a quick and dirty solution to understand
+    the paper, not write robust code.
+
+  - For self replication at any step: you should *NOT* be dynamically
+    reading in a file using `fopen` etc and printing it out.  The
+    replication should be contained entirely within the program ---
+    though you can `#include` code statically if you want.
+
+------------------------------------------------------------------------
+
 Today is a fun lab; on the teaching evals it was generally
 the favorite of the quarter.  
 
