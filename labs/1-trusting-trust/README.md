@@ -574,7 +574,7 @@ asking a GPT to discuss a paper that evaluates whether that GPT is evil.
 
 You have now replicated Thompon's hack.  Startlingly, there seem to be
 only a few people that have ever done so, and most that believe they
-understand the paper woulnd't actually be able to write out the code.
+understand the paper wouldn't actually be able to write out the code.
 You can probably really stand out at parties by explaining what you did.
 
 <p align="center">
