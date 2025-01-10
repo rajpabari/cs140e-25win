@@ -560,6 +560,16 @@ Note:
     M1's laptops.)
 
 -----------------------------------------------------------------------
+#### A topical modern example
+
+It looks like a not-exactly-identical-but-similar issue comes up when
+asking a GPT to discuss a paper that evaluates whether that GPT is evil.
+
+<p align="center">
+  <img src="docs/ai-trust-trust.jpg" width="450" />
+</p>
+
+-----------------------------------------------------------------------
 #### Postscript
 
 You have now replicated Thompon's hack.  Startlingly, there seem to be
@@ -571,9 +581,3 @@ You can probably really stand out at parties by explaining what you did.
   <img src="docs/observe.jpg" width="450" />
 </p>
 
-It looks like a not-exactly-identical-but-similar issue comes up when
-asking a GPT to discuss a paper that evaluates whether that GPT is evil.
-
-<p align="center">
-  <img src="docs/ai-trust-trust.jpg" width="350" />
-</p>
