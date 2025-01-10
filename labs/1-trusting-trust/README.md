@@ -563,7 +563,8 @@ Note:
 #### A topical modern example
 
 It looks like a not-exactly-identical-but-similar issue comes up when
-asking a GPT to discuss a paper that evaluates whether that GPT is evil.
+asking a GPT to discuss a paper that evaluates whether that GPT is evil
+or discusses how to prevent the GPT from being evil.
 
 <p align="center">
   <img src="docs/ai-trust-trust.jpg" width="450" />
