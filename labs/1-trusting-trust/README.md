@@ -575,5 +575,5 @@ It looks like a not-exactly-identical-but-similar issue comes up when
 asking a GPT to discuss a paper that evaluates whether that GPT is evil.
 
 <p align="center">
-  <img src="docs/ai-trust-trust.jpg" width="450" />
+  <img src="docs/ai-trust-trust.jpg" width="350" />
 </p>
