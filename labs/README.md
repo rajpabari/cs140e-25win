@@ -1,11 +1,9 @@
 ## The labs
 
+
 <p align="center">
   <img src="lab-memes/coding.jpg" width="400" />
 </p>
-
-New:
-  - [Final project](./final-projects/README.md).
 
 Below describes where we're going and why.   The labs themselves have a
 lot more prose on each topic.  There is a pointer to where we currently
@@ -15,6 +13,12 @@ are: the labs after this point can still see significant revisions.
     key concepts --- you must read these before the lab or you'll be lost.
     We also suggest re-reading some number of labs later after the concepts
     have sat for a bit so you get a deeper view.  Note summary (so far):
+
+  - For those with high executive function, there is an initial list
+    of possible [final projects](./final-projects/README.md).
+
+  - For those with low executive function there is an initial set of 
+    [lab-memes](./lab-memes) revolving around code, bugs, jobs, pizza.
 
 A note on lab structure:
 
