@@ -132,3 +132,10 @@ comfort with using it.
     a second view of execution (and some depth perception of the topic)
     as well as a more fluent handle on assembly code.
 
+
+---------------------------------------------------------------------
+
+<p align="center">
+  <img src="lab-memes/bug.jpg" width="400" />
+</p>
+
