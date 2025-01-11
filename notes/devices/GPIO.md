@@ -289,7 +289,7 @@ In our case, to set bits 0-2: we would:
 2. Since in general, we won't know their initial value, clear bits
    bits 0-2 (so they are 0) using C bit operations.
 
-3. Do a bitwise-or of (2) with `0b001` (the "input" bit pattern).
+3. Do a bitwise-or of (2) with `0b001` (the "output" bit pattern).
 4. Write (3) back to `GPFSEL2` using `PUT32`.
 
 Something like:
