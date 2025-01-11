@@ -19,7 +19,7 @@ This is broken down some more below, but please make sure:
 1. You've done the reading (see below), especially the Broadcom reading.
 2. You've done the prelab questions on Gradescope.
 3. You've installed the `arm-none-eabi-gcc` toolchain (see
-   [0-pi-setup](0-pi-setup/README.md)).
+   [0-pi-setup](../0-pi-setup/README.md)).
 4. You have a way to read/write a microSD card and connect a USB-A device to
    your computer.
 
