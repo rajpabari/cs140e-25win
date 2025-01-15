@@ -142,8 +142,8 @@ Hardware check before writing code:
      LEDs are on and off at the same time.
 
 <p float="left">
-  <img src="images/leds-on.jpg" width="450" />
-  <img src="images/leds-off.jpg" width="450" />
+  <img src="images/leds-xon.jpg" width="450" />
+  <img src="images/leds-xoff.jpg" width="450" />
 </p>
 
 Part 1 you used GPIO for output, you'll extend your code to handle input
