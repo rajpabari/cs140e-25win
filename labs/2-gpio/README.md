@@ -4,8 +4,13 @@
   <img src="images/rpi-mj.png" width="450" />
 </p>
 
-**Important: as always, read and complete the [PRELAB](PRELAB.md)
-before lab!**
+**Important**: 
+ - For today only you'll have to hit the power-button on the parthiv board
+   (or unplug your pi) after each test.  If you get an error from the 
+   bootloader this is likely the cause.  We get rid of this restriction
+   in the next labs.
+
+  - As always, read and complete the [PRELAB](PRELAB.md) before lab!
 
 In this lab, you'll use the Broadcom document
 (`../../docs/BCM2835-ARM-Peripherals.annot.PDF`) to figure out how to write the
@@ -77,7 +82,7 @@ NOTE:
      we generally don't fry it.
 
 ------------------------------------------------------------------------------
-### Part 1: make GPIO output work 
+### Part 1: make GPIO output work  (`1-blink.bin`, `2-blink.bin`)
 
 Before starting:
   1. Hook up an LED to pin 20 and ground.
@@ -127,10 +132,10 @@ jumper didn't get disconnected.  Do all three checks below:
 Hints: [hints doc](HINTS.md)
 
 ------------------------------------------------------------------------------
-### Part 2: Make `gpio_input` work
+### Part 2: Make `gpio_input` work (`3-loopback.bin`)
 
 Hardware check before writing code:
-  1. Connect a jumper to pins 18 and 19.
+  1. Connect a jumper to pins 9 and 10.
   2. Make sure when you run `staff-binaries/3-blink.bin` that the two
      LEDs are on and off at the same time.
 
@@ -147,7 +152,7 @@ sparkfun, alibaba, etc.
 For this part you'll:
 
 - Implement `gpio.c:gpio_set_input` and `gpio.c:gpio_read()`
-- Use "loopback" jumper connected to 18 and 19 to control
+- Use "loopback" jumper connected to 9 and 10 to control
   one of the leds.
 
 More detail:
@@ -180,7 +185,15 @@ If you took cs107e or you've done this kind of thing before, please do
 an extension.
 
 ------------------------------------------------------------------------------
-## Part 3: look through the code in `code` and `.list` file 
+## Part 3: make the on-board LED blink (`4-act-blink.bin`)
+
+The rpi has an on-board LED accessed by setting GPIO pin 47.  The trivial
+test `4-act-blink.c` blinks it off an on.    This LED is useful as a
+status indicator since it's built-in.  This test checks that you can
+access higher GPIO bank.
+
+------------------------------------------------------------------------------
+## Part 4: look through the code in `code` and `.list` file 
 
 Other than the bootloader, all the code needed for this lab is in
 `code`: there is no additional magic.  Please look through the code
