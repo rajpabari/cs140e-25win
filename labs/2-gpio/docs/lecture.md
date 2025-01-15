@@ -1,4 +1,7 @@
 ### pi rules
+
+For today:
+  - power cycle after each test (until we get reboot()).
  
 Hardware rules:
   - UNPLUG: if pi gets hot.
@@ -15,6 +18,7 @@ Hardware rules:
 
     I was working on the outside tables outside last year.  They are silver
     metal tables.  Put my pi on the table to code.  No more pi.
+
 
 How to fix quick if pi stops working: 
 
@@ -99,18 +103,14 @@ The game:
     - we give software that you can quickly run.  if your PATH and bin
       is setup, 4-checkoff should compile and run.
 
-
 ---------------------------------------------------------------------
-### revisit volatile mbox wait:
+### Unclassified
 
-few points we didn't discuss:
-
+Few points we didn't discuss:
   - shared state isn't just variables.
   - PUT32 as a way to fix.
   - during testing not much use, won't get triggered.
   - if it's in a different cache line can work.
-
-
 
 Example bugs:
     - if leave volatile off: won't set.  however default might already be.
@@ -126,3 +126,11 @@ Example bugs:
 TODO: 
   - type-based alias analysis.
   - how quickly can we get to a simple OS with processes and vm and equiv?
+
+Other extensions:
+  - write in assembly
+  - do different light intensity
+  - pwm as line drawing
+  - 240lx lab on dyanmic code generation.
+  - find the weirdness with the alignemnt?
+  - do the watchdog?

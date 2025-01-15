@@ -20,8 +20,11 @@ code to turn the GPIO pins on/off yourself, as well as reading the pins to get
 values produced by a digital device. You'll use this code to blink an LED and
 to detect when a capacitive touch sensor is touched.
 
-Make sure you read the [GPIO](../../notes/devices/GPIO.md) and [DEVICE](../../notes/devices/DEVICES.md)
-notes.
+Readings:
+Make sure you read
+ - [The GPIO errata](https://elinux.org/BCM2835_datasheet_errata#p90)
+ - [GPIO](../../notes/devices/GPIO.md) 
+ - [DEVICE](../../notes/devices/DEVICES.md)
 
 Notes:
   - See [the setup lab](../0-pi-setup/README.md) for more info on how to
