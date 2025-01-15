@@ -1,6 +1,6 @@
 # Checkoff Checklist
 
-For the autograder, please change your makefile to run 4-loopback.c. Pull from the autograder repo. Then update `sender.py` and send.
+No autograder today. Show your work to a TA
 
 Make sure you have all of these things working for checkoff!
 
