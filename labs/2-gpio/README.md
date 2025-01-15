@@ -8,7 +8,9 @@
  - For today only you'll have to hit the power-button on the parthiv board
    (or unplug your pi) after each test.  If you get an error from the 
    bootloader this is likely the cause.  We get rid of this restriction
-   in the next labs.
+   in the next labs.  (If you look in `code/start.S` you'll see why:
+   we infinite loop when `notmain` returns --- we do this b/c we don't
+   yet have a reboot.)
 
   - As always, read and complete the [PRELAB](PRELAB.md) before lab!
 
